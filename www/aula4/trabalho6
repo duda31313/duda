@@ -1,0 +1,6 @@
+let senha = "neves000"
+if (senha.length < 8) {
+    console.log("senha deve conter no minimo 8 caracteres") 
+} else {
+    console.log("Senha válida!")
+}
