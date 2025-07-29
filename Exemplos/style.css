@@ -1,0 +1,14 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.titulo-principal {
+    color:darkblue
+}
+article {
+    display: flex;
+    justify-content: space-around;
+}
+section h1{
+    color: crimson;
+}
