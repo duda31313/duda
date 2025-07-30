@@ -64,4 +64,35 @@ font-weight: 500;
     background-color: #4338ca;
  }
 
- 
+ .conteúdo {
+padding: 4rem 2rem;
+background-color: #fff;
+text-align: center;
+ }
+ .conteúdo h2 {
+    font-size: 2rem;
+    color: #111827;
+margin-bottom: 2rem;
+ }
+ .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+ }
+ .card {
+    background-color:#f3f4f6 ;
+    padding: 4rem 2rem;
+    border-radius: 8px;
+
+ }
+ .card h3 {
+    color: #4f46e5;
+ }
+.card p {
+    color:#6b7288;
+    max-width: 250px;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
