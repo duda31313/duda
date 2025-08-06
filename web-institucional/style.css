@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    
+}
+
+.navbar {
+    background-color:#047857 ;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center
+    
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#F0FDF4;
+    color: #059669;
+}
+.logo {
+    color:white ;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+    background-color:#047857 ;
+    
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    background-color:#047857 ;
+    font-size:  1rem;
+    padding: 0.5rem 40rem;
+    
+}
+.nav-links a {
+    color:white;
+    text-decoration: none;
+    font-weight: 800;
+    
+    
+}
+nav-links a:hover {
+    color: #e0e7ff;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    background-color: #f3f4f6;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 300px;
+    transition: transform 0.3s;
+}
+.hero-texto {
+    max-width: 500px;
+    margin-bottom:0 ;
+    padding: 0.5rem 0rem;
+    
+}
+.hero-texto h1 {
+    font-size: 1.5rem;
+    color: #065f46;
+    margin-bottom: 0rem 900rem;
+    font-weight:500px ;
+}
+.hero-texto p {
+    font-size: 1rem;
+    color: #059669;
+    margin-bottom: 2rem 10rem;
+    font-weight: 400;
+    padding:1.5rem 35rem;
+}
+
+.conteudo {
+    background-color:#059669;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.conteudo h2 {
+    font-size: 2rem;
+    color:#059669;
+    margin-bottom: 2rem;}
+
+    .conteudo {
+    background-color: #F0FDF4;
+        padding: 4rem 2rem;
+        text-align: center;
+    }
+
+    
