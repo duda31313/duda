@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Frontend Demo</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">Frontend Demo</div>
+    <button class="menu-toggle" aria-label="Abrir menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+
+    <ul class="nav-links">
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Conteúdo</a></li>
+      <li><a href="#">Depoimentos</a></li>
+      <li><a href="#">Exemplos</a></li>
+      <li><a href="#">Tutorial</a></li>
+    </ul>
+  </nav>
+  <main class="cadastro">
+    <h1>Página de cadastro</h1>
+    <p>Preencha o formulário para começar sua jornada no frontend</p>
+    <form class="formulario" action="#"metheod="post">
+      <label for="nome">Nome completo</label>
+      <input type="text" id="nome" name="nome" require>
+
+      <label for="senha">senha</label>
+      <input type="text" id="senha" name="senha" require>
+
+      <label for="email">E-mail</label>
+      <input type="text" id="email" name="email" require>
+
+      <label for="idade">idade</label>
+      <input type="text" id="idade" name="idade" require>
+
+      <label for="nivel">Nivel de eperiência </label>
+      <select type="nivel" id="senha" name="nivel" require>
+        <option value="">Selecione...</option>
+        <option value="iniciante">iniciante</option>
+        <option value="Intermediário">Intermediário</option>
+        <option value="avançado">avançado</option>
+        </select>
+        
+        <label for="objetivo">Por que você quer aprender frontend?</label>
+        <textarea id="objetivo" name="objetivo" rows="4" required></textarea>  
+        <button class="btn-cta" type="submit">Enviar cadastro</button>
+
+    </form>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <h3>Frontend Demo</h3>
+        <p>Aprenda criando interfaces reais com HTML, CSS e JS.</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Conteúdo</a></li>
+        <li><a href="#">Depoimentos</a></li>
+        <li><a href="#">Exemplos</a></li>
+        <li><a href="#">Tutorial</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Frontend Demo. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
